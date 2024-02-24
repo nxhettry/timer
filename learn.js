@@ -1,3 +1,4 @@
+document.onload = function (
 let min = document.querySelector(".minutes");
 let hrs = document.querySelector(".hours");
 let sec = document.querySelector(".seconds");
@@ -63,3 +64,4 @@ setTimeout(() => {
 (function main() {
     getTime();
 })();
+)();
